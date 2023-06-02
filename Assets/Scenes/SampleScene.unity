@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae66a6252d89c74b98418ea5d18884f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawningObject: {fileID: 7896128484333469164, guid: 0c86307067331fc4daa9d6e74d199583, type: 3}
+  _spawningEnemy: {fileID: 674446250478264117, guid: 0c86307067331fc4daa9d6e74d199583, type: 3}
 --- !u!4 &656382692
 Transform:
   m_ObjectHideFlags: 0

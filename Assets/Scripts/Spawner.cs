@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private Object _spawningObject;
+    [SerializeField] private Enemy _spawningEnemy;
 
     private Transform _transform;
     private List<Transform> _spawnLocations = new List<Transform>();
@@ -36,6 +36,6 @@ public class Spawner : MonoBehaviour
 
     private void Spawn(Vector3 position)
     {
-        Instantiate(_spawningObject, position, Quaternion.identity);
+        Instantiate(_spawningEnemy, position, Quaternion.identity);
     }
 }
